@@ -9,6 +9,4 @@ public class Addsum {
 		System.out.println(sum);
 	}
 	
-	
-
 }

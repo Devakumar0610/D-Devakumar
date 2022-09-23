@@ -15,8 +15,8 @@ public class SumOfDigit {
     if(sum>10)
     {
    	b=sum%10;
-    sum=sum/10;
-    sum=sum+b;
+   sum=sum/10;
+   sum=sum+b;
  
     System.out.println(sum);
    }

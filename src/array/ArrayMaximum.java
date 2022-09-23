@@ -14,8 +14,7 @@ public class ArrayMaximum {
     max=a[i];
     }
    }
-    System.out.println(max
-    		);
+    System.out.println(max);
  }
 	
 }

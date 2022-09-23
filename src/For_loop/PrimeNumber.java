@@ -6,7 +6,7 @@ public class PrimeNumber {
 	int n=9;
 	boolean flag= false;
 	
-	for(int i = 2; i <= n/2 ; i++)
+	for(int i=2; i<n; i++)
 	{
 		if(n%i == 0)
 		{
@@ -18,8 +18,8 @@ public class PrimeNumber {
 	if (!flag)
 		System.out.println("prime");
 	else
-		System.out.println("not prime");
+		System.out.println("Not prime");
 		
 	}
-
+	
 }
