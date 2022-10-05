@@ -17,7 +17,7 @@ public class SecondMaximum {
 	    }
 	   }
 	   System.out.println(max); 
-	   System.out.println(b);
+	  // System.out.println(b);
 	   //max=a[b];
 	   for(int j=0; j<a.length; j++)
 	   {

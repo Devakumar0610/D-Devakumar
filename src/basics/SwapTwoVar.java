@@ -4,7 +4,8 @@ public class SwapTwoVar {
 	
 		public static void main(String[] args) {
 			//
-	int n1= 5, n2= 21;
+	int n1= 5, 
+		n2= 21;
 	System.out.println(n1);
 	System.out.println(n2);
 	int n3;

@@ -4,20 +4,27 @@ public class Primenumber {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-    int n=87;
-    int c=0;
+    int i,j=2;
+    int count=0;
+    for(i=2; i<=100; i++)
+    {
+    	count=0;
     
-    for(int i=0; i>n; i++)
+    for(j=2; j<i; j++)
     {
-    if(n%i==0) 
-    {
-    	c++;
-    break;
+    	if(i%j==0)
+    	{
+    		count++;
+    		break;
+    	}	
     }
+    if(count==0)
+	{
+		System.out.println(i);
 	}
-    if(c==0)
-    	System.out.println(n+"prime number");
-    else
-    	System.out.println(n+" not prime number");
+    }
+    
+    	
+    
 }
 }

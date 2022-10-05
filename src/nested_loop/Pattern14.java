@@ -10,11 +10,12 @@ public class Pattern14 {
     {
     for(int j=1; j<=i; j++)	
     {
-    	System.out.print(k+" ");
+    	System.out.print(k+ " ");
     	k+=2;
     }
-    }
     System.out.println(" ");
+    }
+    
 	}
     
 

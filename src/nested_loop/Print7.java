@@ -1,6 +1,6 @@
 package nested_loop;
 
-public class Pattern6 {
+public class Print7 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -22,5 +22,4 @@ public class Pattern6 {
 		  System.out.println();
 	}
 
-}
-}
+	}}

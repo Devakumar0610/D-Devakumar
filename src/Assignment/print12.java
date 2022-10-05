@@ -1,4 +1,4 @@
-package Assegnment;
+package Assignment;
 
 public class print12 {
 
