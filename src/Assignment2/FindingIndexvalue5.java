@@ -1,6 +1,6 @@
 package Assignment2;
 
-public class FindingIndexvalue {
+public class FindingIndexvalue5 {
 
 	public static void main(String[] args) {
 		int arr[]= {75,43,56,435,240,980,730};
@@ -9,7 +9,7 @@ public class FindingIndexvalue {
 		{
 		if(x==arr[i])
 		{
-			System.out.println("Finding index of given number="+i);
+			System.out.println("Finding index of given number"+i);
 		}
 		}
 			

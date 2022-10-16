@@ -1,6 +1,6 @@
 package Assignment2;
 
-public class HowmanyTimesinArray {
+public class HowmanyTimesinArray8 {
 
 	public static void main(String[] args) {
 		int a[]= {7,4,3,5,2,23,4,2,38,2};

@@ -1,6 +1,6 @@
 package Assignment2;
 
-public class Removingnumber {
+public class Removingnumber6 {
 
 	public static void main(String[] args) {
 		int a[]= {7,5,3,9,2,4,1};
