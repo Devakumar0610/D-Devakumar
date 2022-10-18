@@ -41,8 +41,18 @@ public class Overloading {
 
 	public static void main(String[] args) {
 		Overloading s=new Overloading();
-		//short a=755;
-		   s.a(true);
+		
+		s.a(6<8);
+	     s.a(10);
+	     s.a('M');
+	     s.a(2.3456);
+	     s.a(4.5f);
+	     s.a(7);
+	     s.a(1611L);
+	     s.a(20);
+	     s.a("DEVAKUMAR D");		
+	       short a=755;
+		        s.a(a);
 	}
 
 }
