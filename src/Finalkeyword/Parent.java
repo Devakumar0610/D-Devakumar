@@ -1,14 +1,16 @@
 package Finalkeyword;
 
 public class Parent { 
-	         final void data()
-	        {                                         //final Method
+	        void data()
+	        {     
+	        	int p=56;               //final Method
 	         System.out.println("Data Processing");
 	        }
 	        public static void main(String[] args) {
-	    		// TODO Auto-generated method stub
+	    		
 	           child s=new child();
 	                s.data();
+	                s.p=76;
 	        }
 }
 

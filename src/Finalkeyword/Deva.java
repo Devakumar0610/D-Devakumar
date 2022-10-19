@@ -5,8 +5,10 @@ public final class Deva {
      {                                         //final Method
       System.out.println("Data Processing");
      }
-     public static void main(String[] args) {
- 		// TODO Auto-generated method stub
+     
+	 public static void main(String[] args) 
+     {
+ 		
         Child s=new Child();
              s.data();
      }
