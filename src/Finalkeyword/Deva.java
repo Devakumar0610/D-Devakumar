@@ -1,17 +1,17 @@
 package Finalkeyword;
 
-public final class Deva {
-	 void data()
+public class  {
+	  void data()
      {                                         //final Method
       System.out.println("Data Processing");
      }
      
-	 public static void main(String[] args) 
-     {
- 		
-        Child s=new Child();
-             s.data();
-     }
+//	 public static void main(String[] args) 
+//     {
+// 		
+//        Child s=new Child();
+//             s.data();
+//     }
 }
 
     class Child extends Parent
@@ -20,7 +20,12 @@ public final class Deva {
  	{
  	System.out.println("Data Analysis");	
  	}
-
+ 	public static void main(String[] args) 
+    {
+		
+       Child s=new Child();
+            s.data();
+    }
  		
 }
 

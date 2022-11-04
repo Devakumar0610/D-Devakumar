@@ -1,21 +1,21 @@
 package Finalkeyword;
 
 public class Parent { 
-	        void data()
+	        final void data()
 	        {     
-	        	int p=56;               //final Method
-	         System.out.println("Data Processing");
+	        int p=56;               //final Method
+	        System.out.println("Data Processing");
 	        }
 	        public static void main(String[] args) {
 	    		
 	           child s=new child();
 	                s.data();
-	                s.p=76;
+	               
 	        }
 }
 
-	         class child extends Parent
-	    {
+	        class child extends Parent
+	        {
 	    	void data()
 	    	{
 	    	System.out.println("Data Analysis");	
