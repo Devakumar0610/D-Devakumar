@@ -4,7 +4,7 @@ public class ArrayMaximum {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-    int a[]= {5,2,-1,4,-2,-3,7,8};
+    int a[]= {76,75,70,80,90};
     
     int max=0;
     for(int i=0; i<a.length; i++)

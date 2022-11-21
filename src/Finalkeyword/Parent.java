@@ -1,7 +1,7 @@
 package Finalkeyword;
 
 public class Parent { 
-	        final void data()
+	        //final void data()
 	        {     
 	        int p=56;               //final Method
 	        System.out.println("Data Processing");

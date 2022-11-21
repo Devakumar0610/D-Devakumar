@@ -9,10 +9,10 @@ public class HowmanyTimesinArray8 {
 		for(int i=0; i<a.length; i++)
 		{
 		 if(x==a[i])
-		 
+		 {
 			 count++;
-		}
-		 System.out.println("How Many Time in Array"+count+"Time");
+		}}
+		 System.out.println("How Many Time in Array"  + count+ "Time");
 		}
 
 	}

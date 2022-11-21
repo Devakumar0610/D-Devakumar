@@ -8,7 +8,10 @@ public class leastcommondivisor {
 		int big = no1>no2 ? no1:no2;
 		while(true)
 		{
-			if(big%no1==0)
+			if(big%no1==0);
+			{
+				System.out.println(big);  ///error will be accoured
+			}
 		
 			
 		}

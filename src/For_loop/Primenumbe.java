@@ -3,7 +3,7 @@ package For_loop;
 public class Primenumbe {
 
 	public static void main(String[] args) {
-	int n=1;
+	int n=50;
 	boolean flag= false;
 	for(int i=2; i<n; i++)
 	{

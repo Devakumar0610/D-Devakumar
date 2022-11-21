@@ -2,7 +2,7 @@ package while_loop;
 
 public class Polindrome {
 	public static void main(String[] arg) {
-		int num=757;
+		int num=7654;           //757
         int h=num;
         int reverse=0;
         while (num>0)
