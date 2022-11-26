@@ -28,7 +28,7 @@ public class splitMethod {
 //}}
 		
 		
-		String date="21/11/2022";
+		  String date="21/11/2022";
 		  splitTheDate(date,'/');
 		  }
 		splitTheDate(String input,char sp)
@@ -38,4 +38,5 @@ public class splitMethod {
 			{
 			System.out.println(input.charAt(i));
 		}
-		}}
+   	  }
+	}
