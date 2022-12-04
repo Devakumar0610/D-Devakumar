@@ -9,7 +9,7 @@ public class Practice2 {
 			if(col==9)
 			{
 				col = 0;
-				//System.out.println();
+				System.out.println();
 			}
 		}
 

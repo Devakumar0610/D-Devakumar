@@ -11,10 +11,10 @@ public class Pattern11 {
 			{
 				if(i+j>=n-1)
 				{
-					System.out.print(a+" ");
+					System.out.print(a+" "+" ");
 				}
 				else {
-					System.out.print(" "+" ");
+					System.out.print(" ");
 				}
 			}
 			System.out.println();
